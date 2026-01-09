@@ -2,8 +2,8 @@
 library(tidyverse)
 library(ggpubr)
 
-# Load your data (Expected file: your_data.csv)
-# filter_data <- read.csv("data/your_data.csv")
+# Load your data (Expected file: reads_quality_table.csv)
+# filter_data <- read.csv("data/reads_quality_table.csv")
 
 # Data preparation and plotting
 long_data <- gather(filter_data, key = 'quality', value = 'value', -marker,
